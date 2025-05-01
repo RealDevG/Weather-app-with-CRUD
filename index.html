@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-gray-950 h-screen flex items-center justify-center flex-col relative">
+    <div class="fixed right-2 top-1 inline-block bg-blue-300 text-black rounded-full h-9 w-9 text-center">
+      <button id="dropdownToggle">⌄</button>
+      <ul id="dropdownMenu" class="hidden absolute right-0 bg-white shadow-md rounded p-2 z-50 w-2xs" >
+        <!-- Bookmark items will be added here -->
+      </ul>
+    </div>
+    
+    <div class="text-6xl w-3xl mt-12 relative text-white font-extrabold" >Get Weather of Earth in a glitch</div>
+    <div class="current-weather rounded-2xl text-4xl w-3xl mt-12 relative text-white font-bold">
+      
+    </div>
+    <div
+      class="m-auto h-32 px-10 py-7 flex gap-3 items-center justify-center bg-gray-700 rounded-2xl">
+      <input
+        class="w-xl px-6 py-3 bg-gray-900 text-white rounded outline-none"
+        type="text"
+        placeholder="Enter location"
+        id="input"
+      />
+      <button
+        class="bg-blue-500 rounded px-4 py-2 text-2xl text-white cursor-pointer hover:bg-blue-700"
+        id="searchbtn"
+      >
+        Search
+      </button>
+    </div>
+    <div class="bookmarks flex gap-2 mb-8">
+      <!-- <div class="one bg-white text-xl rounded-full px-9 py-3">
+        <ul class="flex gap-3 items-center justify-center">
+          <li class="bg-amber-500 p-3 rounded-full shadow-2xs">33°C</li>
+          <li>Golaghat</li>
+          <span>
+            <button class="bg-red-600 text-white rounded-full w-10 h-10 flex items-center justify-center text-2xl shadow-lg hover:bg-red-700 cursor-pointer">
+              &minus;
+            </button>
+          </span>
+          
+        </ul>
+      </div> -->
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
