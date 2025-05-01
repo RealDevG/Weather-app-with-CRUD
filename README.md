@@ -1,4 +1,4 @@
-# Weather-app-with-js
+# Weather-app-with-CRUD
 
 This is a convenient weather app developed completely on Javascript.
 1.this web allows users to - 
